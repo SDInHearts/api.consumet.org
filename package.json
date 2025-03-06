@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "main": "src/main.ts",
     "scripts": {
+      "prepare": "npm run build",
         "start": "ts-node src/main.ts",
         "dev": "nodemon src/main.ts",
         "build": "tsc",
